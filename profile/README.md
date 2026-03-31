@@ -102,12 +102,12 @@ Downloads: https://cadsma.com.br/download.html
 
 ## Equipe de desenvolvimento
 
-<p>
+<p align="center">
   <a href="https://github.com/chicocads">
-    <img src="https://github.com/chicocads.png" width="84" alt="chicocads" style="border-radius: 50%;" />
+    <img src="https://github.com/chicocads.png" width="84" height="84" style="border-radius: 50%; object-fit: cover;" alt="chicocads" />
   </a>
   <a href="https://github.com/dev-juan-ibanez">
-    <img src="https://github.com/dev-juan-ibanez.png" width="84" alt="dev-juan-ibanez" style="border-radius: 50%;" />
+    <img src="https://github.com/dev-juan-ibanez.png" width="84" height="84" style="border-radius: 50%; object-fit: cover;" alt="dev-juan-ibanez" />
   </a>
 </p>
 
