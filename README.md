@@ -100,6 +100,10 @@ A página de download reúne aplicativos e instaladores de apoio ao ecossistema 
 
 Downloads: https://cadsma.com.br/download.html
 
+## Visualização de commits
+
+[![Gráfico de atividade no GitHub](https://github-readme-activity-graph.vercel.app/graph?username=CADS-INFORMATICA&bg_color=ffffff&color=0f172a&line=0ea5e9&point=0f172a&area=true&hide_border=true)](https://github.com/CADS-INFORMATICA)
+
 ## Contato
 
 - Endereço: R. Projetada Cinco, 5, Olho D'agua, São Luís - MA, CEP 65045-250
