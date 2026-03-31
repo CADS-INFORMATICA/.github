@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Commit Activity</title>
+  <desc id="desc">Commits per week (last 52 weeks)</desc>
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font: 600 24px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #24292f; }
+      .subtitle { font: 400 14px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }
+      .axis { stroke: #d0d7de; stroke-width: 1; }
+      .label { font: 400 12px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }
+      .value { font: 500 11px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1000" height="320" rx="8"/>
+  <text class="title" x="24" y="42">Commit Activity</text>
+  <text class="subtitle" x="24" y="64">Commits per week (last 52 weeks)</text>
+  <line class="axis" x1="24" y1="282" x2="976" y2="282"/>
+  <line class="axis" x1="24" y1="86" x2="24" y2="282"/>
+  <rect x="24.00" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>06 Apr 2025: 0 commits</title></rect>
+  <rect x="42.35" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>13 Apr 2025: 0 commits</title></rect>
+  <rect x="60.69" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>20 Apr 2025: 0 commits</title></rect>
+  <rect x="79.04" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>27 Apr 2025: 0 commits</title></rect>
+  <rect x="97.38" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>04 May 2025: 0 commits</title></rect>
+  <rect x="115.73" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>11 May 2025: 0 commits</title></rect>
+  <rect x="134.08" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>18 May 2025: 0 commits</title></rect>
+  <rect x="152.42" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>25 May 2025: 0 commits</title></rect>
+  <rect x="170.77" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>01 Jun 2025: 0 commits</title></rect>
+  <rect x="189.12" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>08 Jun 2025: 0 commits</title></rect>
+  <rect x="207.46" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>15 Jun 2025: 0 commits</title></rect>
+  <rect x="225.81" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>22 Jun 2025: 0 commits</title></rect>
+  <rect x="244.15" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>29 Jun 2025: 0 commits</title></rect>
+  <rect x="262.50" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>06 Jul 2025: 0 commits</title></rect>
+  <rect x="280.85" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>13 Jul 2025: 0 commits</title></rect>
+  <rect x="299.19" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>20 Jul 2025: 0 commits</title></rect>
+  <rect x="317.54" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>27 Jul 2025: 0 commits</title></rect>
+  <rect x="335.88" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>03 Aug 2025: 0 commits</title></rect>
+  <rect x="354.23" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>10 Aug 2025: 0 commits</title></rect>
+  <rect x="372.58" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>17 Aug 2025: 0 commits</title></rect>
+  <rect x="390.92" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>24 Aug 2025: 0 commits</title></rect>
+  <rect x="409.27" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>31 Aug 2025: 0 commits</title></rect>
+  <rect x="427.62" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>07 Sep 2025: 0 commits</title></rect>
+  <rect x="445.96" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>14 Sep 2025: 0 commits</title></rect>
+  <rect x="464.31" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>21 Sep 2025: 0 commits</title></rect>
+  <rect x="482.65" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>28 Sep 2025: 0 commits</title></rect>
+  <rect x="501.00" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>05 Oct 2025: 0 commits</title></rect>
+  <rect x="519.35" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>12 Oct 2025: 0 commits</title></rect>
+  <rect x="537.69" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>19 Oct 2025: 0 commits</title></rect>
+  <rect x="556.04" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>26 Oct 2025: 0 commits</title></rect>
+  <rect x="574.38" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>02 Nov 2025: 0 commits</title></rect>
+  <rect x="592.73" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>09 Nov 2025: 0 commits</title></rect>
+  <rect x="611.08" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>16 Nov 2025: 0 commits</title></rect>
+  <rect x="629.42" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>23 Nov 2025: 0 commits</title></rect>
+  <rect x="647.77" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>30 Nov 2025: 0 commits</title></rect>
+  <rect x="666.12" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>07 Dec 2025: 0 commits</title></rect>
+  <rect x="684.46" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>14 Dec 2025: 0 commits</title></rect>
+  <rect x="702.81" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>21 Dec 2025: 0 commits</title></rect>
+  <rect x="721.15" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>28 Dec 2025: 0 commits</title></rect>
+  <rect x="739.50" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>04 Jan 2026: 0 commits</title></rect>
+  <rect x="757.85" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>11 Jan 2026: 0 commits</title></rect>
+  <rect x="776.19" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>18 Jan 2026: 0 commits</title></rect>
+  <rect x="794.54" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>25 Jan 2026: 0 commits</title></rect>
+  <rect x="812.88" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>01 Feb 2026: 0 commits</title></rect>
+  <rect x="831.23" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>08 Feb 2026: 0 commits</title></rect>
+  <rect x="849.58" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>15 Feb 2026: 0 commits</title></rect>
+  <rect x="867.92" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>22 Feb 2026: 0 commits</title></rect>
+  <rect x="886.27" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>01 Mar 2026: 0 commits</title></rect>
+  <rect x="904.62" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>08 Mar 2026: 0 commits</title></rect>
+  <rect x="922.96" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>15 Mar 2026: 0 commits</title></rect>
+  <rect x="941.31" y="282.00" width="16.35" height="0.00" fill="#2da44e"><title>22 Mar 2026: 0 commits</title></rect>
+  <rect x="959.65" y="86.00" width="16.35" height="196.00" fill="#2da44e"><title>29 Mar 2026: 4 commits</title></rect>
+  <text class="label" x="24.00" y="304">52w</text>
+  <text class="label" x="262.50" y="304">39w</text>
+  <text class="label" x="501.00" y="304">26w</text>
+  <text class="label" x="739.50" y="304">13w</text>
+  <text class="label" x="959.65" y="304">Now</text>
+  <text class="value" x="980" y="96" text-anchor="end">max 4</text>
+</svg>

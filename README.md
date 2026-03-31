@@ -102,7 +102,10 @@ Downloads: https://cadsma.com.br/download.html
 
 ## Visualização de commits
 
-[![Atividade de commits (mensal)](https://img.shields.io/github/commit-activity/m/CADS-INFORMATICA/.github?label=Commits%20per%20month)](https://github.com/CADS-INFORMATICA/.github/graphs/commit-activity)
+[![Commit activity](assets/commit-activity.svg)](https://github.com/CADS-INFORMATICA/.github/graphs/commit-activity)
+[![Code frequency](assets/code-frequency.svg)](https://github.com/CADS-INFORMATICA/.github/graphs/code-frequency)
+
+Os gráficos acima são atualizados automaticamente pelo GitHub Actions.
 
 ## Principais contribuidores
 
