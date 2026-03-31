@@ -102,7 +102,11 @@ Downloads: https://cadsma.com.br/download.html
 
 ## Visualização de commits
 
-[![Gráfico de atividade no GitHub](https://github-readme-activity-graph.vercel.app/graph?username=CADS-INFORMATICA&bg_color=ffffff&color=0f172a&line=0ea5e9&point=0f172a&area=true&hide_border=true)](https://github.com/CADS-INFORMATICA)
+[![Atividade de commits (mensal)](https://img.shields.io/github/commit-activity/m/CADS-INFORMATICA/.github?label=Commits%20per%20month)](https://github.com/CADS-INFORMATICA/.github/graphs/commit-activity)
+
+## Principais contribuidores
+
+[![Contribuidores](https://contrib.rocks/image?repo=CADS-INFORMATICA/.github)](https://github.com/CADS-INFORMATICA/.github/graphs/contributors)
 
 ## Contato
 
