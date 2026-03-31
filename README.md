@@ -107,9 +107,16 @@ Downloads: https://cadsma.com.br/download.html
 
 Os gráficos acima são atualizados automaticamente pelo GitHub Actions.
 
-## Principais contribuidores
+## Equipe de desenvolvimento
 
-[![Contribuidores](https://contrib.rocks/image?repo=CADS-INFORMATICA/.github)](https://github.com/CADS-INFORMATICA/.github/graphs/contributors)
+<p>
+  <a href="https://github.com/chicocads">
+    <img src="https://github.com/chicocads.png" width="84" alt="chicocads" style="border-radius: 50%;" />
+  </a>
+  <a href="https://github.com/dev-juan-ibanez">
+    <img src="https://github.com/dev-juan-ibanez.png" width="84" alt="dev-juan-ibanez" style="border-radius: 50%;" />
+  </a>
+</p>
 
 ## Contato
 
