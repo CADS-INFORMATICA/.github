@@ -16,14 +16,16 @@
   <text class="subtitle" x="24" y="64">Additions and deletions per week (last 52 weeks)</text>
   <line class="axis" x1="24" y1="184.0" x2="976" y2="184.0"/>
   <line class="axis" x1="24" y1="86" x2="24" y2="282"/>
-  <rect x="24.00" y="86.00" width="316.00" height="98.00" fill="#2da44e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
-  <rect x="24.00" y="184.00" width="316.00" height="3.37" fill="#cf222e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
+  <rect x="24.00" y="86.00" width="188.80" height="98.00" fill="#2da44e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
+  <rect x="24.00" y="184.00" width="188.80" height="3.37" fill="#cf222e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
+  <rect x="405.60" y="174.36" width="188.80" height="9.64" fill="#2da44e"><title>12 Apr 2026: +60 additions, -60 deletions</title></rect>
+  <rect x="405.60" y="184.00" width="188.80" height="9.64" fill="#cf222e"><title>12 Apr 2026: +60 additions, -60 deletions</title></rect>
   <rect x="820" y="34" width="12" height="12" fill="#2da44e"/><text class="label" x="838" y="44">Additions</text>
   <rect x="910" y="34" width="12" height="12" fill="#cf222e"/><text class="label" x="928" y="44">Deletions</text>
   <text class="label" x="24.00" y="304">52w</text>
-  <text class="label" x="660.00" y="304">39w</text>
-  <text class="label" x="660.00" y="304">26w</text>
-  <text class="label" x="660.00" y="304">13w</text>
-  <text class="label" x="660.00" y="304">Now</text>
+  <text class="label" x="787.20" y="304">39w</text>
+  <text class="label" x="787.20" y="304">26w</text>
+  <text class="label" x="787.20" y="304">13w</text>
+  <text class="label" x="787.20" y="304">Now</text>
   <text class="value" x="980" y="96" text-anchor="end">max +/- 610</text>
 </svg>
