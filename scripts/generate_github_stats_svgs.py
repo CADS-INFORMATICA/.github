@@ -17,7 +17,7 @@ API_BASE = f"https://api.github.com/repos/{OWNER}/{REPO}/stats"
 ASSETS_DIR = Path(__file__).resolve().parents[1] / "assets"
 
 
-def fetch_json(path: str, retries: int = 8) -> list:
+def fetch_json(path: str, retries: int = 30) -> list:
     url = f"{API_BASE}/{path}"
     headers = {
         "Accept": "application/vnd.github+json",
@@ -32,14 +32,17 @@ def fetch_json(path: str, retries: int = 8) -> list:
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 if resp.status == 202:
-                    time.sleep(2 + attempt)
+                    # Exponencial: espere 2, 4, 8, ... até 60s
+                    wait = min(2 ** attempt, 60)
+                    time.sleep(wait)
                     continue
                 if resp.status != 200:
                     raise RuntimeError(f"Unexpected status {resp.status} for {url}")
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as exc:
             if exc.code == 202:
-                time.sleep(2 + attempt)
+                wait = min(2 ** attempt, 60)
+                time.sleep(wait)
                 continue
             raise
 
@@ -165,6 +168,9 @@ def generate_code_frequency_svg(data: list[list[int]]) -> str:
     )
 
     return svg_template("Code Frequency", "Additions and deletions per week (last 52 weeks)", inner)
+
+
+
 
 
 def main() -> None:
