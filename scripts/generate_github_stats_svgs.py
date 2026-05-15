@@ -17,7 +17,7 @@ API_BASE = f"https://api.github.com/repos/{OWNER}/{REPO}/stats"
 ASSETS_DIR = Path(__file__).resolve().parents[1] / "assets"
 
 
-def fetch_json(path: str, retries: int = 30) -> list:
+def fetch_json(path: str, retries: int = 30) -> list | None:
     url = f"{API_BASE}/{path}"
     headers = {
         "Accept": "application/vnd.github+json",
@@ -32,21 +32,27 @@ def fetch_json(path: str, retries: int = 30) -> list:
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 if resp.status == 202:
-                    # Exponencial: espere 2, 4, 8, ... até 60s
                     wait = min(2 ** attempt, 60)
+                    print(f"[{path}] Dados ainda não prontos, tentativa {attempt+1}/{retries}... aguardando {wait}s")
                     time.sleep(wait)
                     continue
                 if resp.status != 200:
                     raise RuntimeError(f"Unexpected status {resp.status} for {url}")
-                return json.loads(resp.read().decode("utf-8"))
+                data = json.loads(resp.read().decode("utf-8"))
+                print(f"[{path}] Dados obtidos com sucesso do endpoint GitHub.")
+                return data
         except urllib.error.HTTPError as exc:
             if exc.code == 202:
                 wait = min(2 ** attempt, 60)
+                print(f"[{path}] HTTP 202 - Dados ainda não prontos, tentativa {attempt+1}/{retries}... aguardando {wait}s")
                 time.sleep(wait)
                 continue
+            print(f"[{path}] HTTPError inesperado: {exc.code} - {exc.reason}")
             raise
 
-    raise RuntimeError(f"GitHub stats endpoint still computing after {retries} attempts: {url}")
+    print(f"AVISO: Os dados para '{path}' ainda não estão disponíveis após {retries} tentativas.")
+    print(f"Você pode tentar executar o script novamente em alguns minutos.")
+    return None  # Sinaliza falha para main()
 
 
 def esc(text: str) -> str:
@@ -60,10 +66,35 @@ def esc(text: str) -> str:
 
 
 def svg_template(title: str, subtitle: str, inner: str) -> str:
-    return f"""<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"320\" role=\"img\" aria-labelledby=\"title desc\">\n  <title id=\"title\">{esc(title)}</title>\n  <desc id=\"desc\">{esc(subtitle)}</desc>\n  <defs>\n    <style>\n      .bg {{ fill: #ffffff; }}\n      .title {{ font: 600 24px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #24292f; }}\n      .subtitle {{ font: 400 14px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }}\n      .axis {{ stroke: #d0d7de; stroke-width: 1; }}\n      .label {{ font: 400 12px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }}\n      .value {{ font: 500 11px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }}\n    </style>\n  </defs>\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"1000\" height=\"320\" rx=\"8\"/>\n  <text class=\"title\" x=\"24\" y=\"42\">{esc(title)}</text>\n  <text class=\"subtitle\" x=\"24\" y=\"64\">{esc(subtitle)}</text>\n  {inner}\n</svg>\n"""
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">{esc(title)}</title>
+  <desc id="desc">{esc(subtitle)}</desc>
+  <defs>
+    <style>
+      .bg {{ fill: #ffffff; }}
+      .title {{ font: 600 24px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #24292f; }}
+      .subtitle {{ font: 400 14px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }}
+      .axis {{ stroke: #d0d7de; stroke-width: 1; }}
+      .label {{ font: 400 12px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }}
+      .value {{ font: 500 11px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #57606a; }}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1000" height="320" rx="8"/>
+  <text class="title" x="24" y="42">{esc(title)}</text>
+  <text class="subtitle" x="24" y="64">{esc(subtitle)}</text>
+  {inner}
+</svg>
+"""
 
 
-def generate_commit_activity_svg(data: list[dict]) -> str:
+def generate_commit_activity_svg(data: list[dict] | None) -> str:
+    if not data:
+        return svg_template(
+            "Commit Activity",
+            "Dados de commit ainda não disponíveis – tente novamente mais tarde.",
+            '<text class="label" x="24" y="120">Estatísticas de commit não disponíveis no momento.</text>'
+        )
+
     weeks = data[-52:] if len(data) > 52 else data
     chart_left = 24
     chart_top = 86
@@ -109,7 +140,14 @@ def generate_commit_activity_svg(data: list[dict]) -> str:
     return svg_template("Commit Activity", "Commits per week (last 52 weeks)", inner)
 
 
-def generate_code_frequency_svg(data: list[list[int]]) -> str:
+def generate_code_frequency_svg(data: list[list[int]] | None) -> str:
+    if not data:
+        return svg_template(
+            "Code Frequency",
+            "Dados de frequência de código ainda não disponíveis – tente novamente mais tarde.",
+            '<text class="label" x="24" y="120">Estatísticas de frequência de código não disponíveis no momento.</text>'
+        )
+
     weeks = data[-52:] if len(data) > 52 else data
     chart_left = 24
     chart_top = 86
@@ -170,24 +208,28 @@ def generate_code_frequency_svg(data: list[list[int]]) -> str:
     return svg_template("Code Frequency", "Additions and deletions per week (last 52 weeks)", inner)
 
 
-
-
-
 def main() -> None:
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"Diretório de assets: {ASSETS_DIR}")
 
-    commit_activity = fetch_json("commit_activity")
-    code_frequency = fetch_json("code_frequency")
+    commit_activity = fetch_json("commit_activity", retries=30)
+    code_frequency = fetch_json("code_frequency", retries=30)
 
-    (ASSETS_DIR / "commit-activity.svg").write_text(
-        generate_commit_activity_svg(commit_activity), encoding="utf-8"
-    )
-    (ASSETS_DIR / "code-frequency.svg").write_text(
-        generate_code_frequency_svg(code_frequency), encoding="utf-8"
-    )
+    svg_commit = generate_commit_activity_svg(commit_activity)
+    svg_codefreq = generate_code_frequency_svg(code_frequency)
 
-    print("Generated assets/commit-activity.svg")
-    print("Generated assets/code-frequency.svg")
+    (ASSETS_DIR / "commit-activity.svg").write_text(svg_commit, encoding="utf-8")
+    (ASSETS_DIR / "code-frequency.svg").write_text(svg_codefreq, encoding="utf-8")
+
+    if commit_activity:
+        print("Gerado assets/commit-activity.svg com sucesso.")
+    else:
+        print("Gerado assets/commit-activity.svg: placeholder por falta de dados.")
+
+    if code_frequency:
+        print("Gerado assets/code-frequency.svg com sucesso.")
+    else:
+        print("Gerado assets/code-frequency.svg: placeholder por falta de dados.")
 
 
 if __name__ == "__main__":
