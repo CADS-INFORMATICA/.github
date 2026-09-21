@@ -16,50 +16,52 @@
   <text class="subtitle" x="24" y="64">Additions and deletions per week (last 52 weeks)</text>
   <line class="axis" x1="24" y1="184.0" x2="976" y2="184.0"/>
   <line class="axis" x1="24" y1="86" x2="24" y2="282"/>
-  <rect x="24.00" y="86.00" width="36.16" height="98.00" fill="#2da44e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
-  <rect x="24.00" y="184.00" width="36.16" height="3.37" fill="#cf222e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
-  <rect x="100.32" y="174.36" width="36.16" height="9.64" fill="#2da44e"><title>12 Apr 2026: +60 additions, -60 deletions</title></rect>
-  <rect x="100.32" y="184.00" width="36.16" height="9.64" fill="#cf222e"><title>12 Apr 2026: +60 additions, -60 deletions</title></rect>
-  <rect x="176.64" y="174.36" width="36.16" height="9.64" fill="#2da44e"><title>26 Apr 2026: +60 additions, -58 deletions</title></rect>
-  <rect x="176.64" y="184.00" width="36.16" height="9.32" fill="#cf222e"><title>26 Apr 2026: +60 additions, -58 deletions</title></rect>
-  <rect x="252.96" y="172.43" width="36.16" height="11.57" fill="#2da44e"><title>10 May 2026: +72 additions, -24 deletions</title></rect>
-  <rect x="252.96" y="184.00" width="36.16" height="3.86" fill="#cf222e"><title>10 May 2026: +72 additions, -24 deletions</title></rect>
-  <rect x="291.12" y="183.04" width="36.16" height="0.96" fill="#2da44e"><title>17 May 2026: +6 additions, -78 deletions</title></rect>
-  <rect x="291.12" y="184.00" width="36.16" height="12.53" fill="#cf222e"><title>17 May 2026: +6 additions, -78 deletions</title></rect>
-  <rect x="405.60" y="174.04" width="36.16" height="9.96" fill="#2da44e"><title>07 Jun 2026: +62 additions, -3 deletions</title></rect>
-  <rect x="405.60" y="184.00" width="36.16" height="0.48" fill="#cf222e"><title>07 Jun 2026: +62 additions, -3 deletions</title></rect>
-  <rect x="443.76" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>14 Jun 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="443.76" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>14 Jun 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="481.92" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>21 Jun 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="481.92" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>21 Jun 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="520.08" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>28 Jun 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="520.08" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>28 Jun 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="558.24" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>05 Jul 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="558.24" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>05 Jul 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="596.40" y="170.50" width="36.16" height="13.50" fill="#2da44e"><title>12 Jul 2026: +84 additions, -55 deletions</title></rect>
-  <rect x="596.40" y="184.00" width="36.16" height="8.84" fill="#cf222e"><title>12 Jul 2026: +84 additions, -55 deletions</title></rect>
-  <rect x="634.56" y="175.16" width="36.16" height="8.84" fill="#2da44e"><title>19 Jul 2026: +55 additions, -84 deletions</title></rect>
-  <rect x="634.56" y="184.00" width="36.16" height="13.50" fill="#cf222e"><title>19 Jul 2026: +55 additions, -84 deletions</title></rect>
-  <rect x="672.72" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>26 Jul 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="672.72" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>26 Jul 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="710.88" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>02 Aug 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="710.88" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>02 Aug 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="749.04" y="169.22" width="36.16" height="14.78" fill="#2da44e"><title>09 Aug 2026: +92 additions, -55 deletions</title></rect>
-  <rect x="749.04" y="184.00" width="36.16" height="8.84" fill="#cf222e"><title>09 Aug 2026: +92 additions, -55 deletions</title></rect>
-  <rect x="787.20" y="175.16" width="36.16" height="8.84" fill="#2da44e"><title>16 Aug 2026: +55 additions, -92 deletions</title></rect>
-  <rect x="787.20" y="184.00" width="36.16" height="14.78" fill="#cf222e"><title>16 Aug 2026: +55 additions, -92 deletions</title></rect>
-  <rect x="825.36" y="175.65" width="36.16" height="8.35" fill="#2da44e"><title>23 Aug 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="825.36" y="184.00" width="36.16" height="8.35" fill="#cf222e"><title>23 Aug 2026: +52 additions, -52 deletions</title></rect>
-  <rect x="863.52" y="168.26" width="36.16" height="15.74" fill="#2da44e"><title>30 Aug 2026: +98 additions, -55 deletions</title></rect>
-  <rect x="863.52" y="184.00" width="36.16" height="8.84" fill="#cf222e"><title>30 Aug 2026: +98 additions, -55 deletions</title></rect>
-  <rect x="901.68" y="175.16" width="36.16" height="8.84" fill="#2da44e"><title>06 Sep 2026: +55 additions, -98 deletions</title></rect>
-  <rect x="901.68" y="184.00" width="36.16" height="15.74" fill="#cf222e"><title>06 Sep 2026: +55 additions, -98 deletions</title></rect>
+  <rect x="24.00" y="86.00" width="34.69" height="98.00" fill="#2da44e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
+  <rect x="24.00" y="184.00" width="34.69" height="3.37" fill="#cf222e"><title>29 Mar 2026: +610 additions, -21 deletions</title></rect>
+  <rect x="97.38" y="174.36" width="34.69" height="9.64" fill="#2da44e"><title>12 Apr 2026: +60 additions, -60 deletions</title></rect>
+  <rect x="97.38" y="184.00" width="34.69" height="9.64" fill="#cf222e"><title>12 Apr 2026: +60 additions, -60 deletions</title></rect>
+  <rect x="170.77" y="174.36" width="34.69" height="9.64" fill="#2da44e"><title>26 Apr 2026: +60 additions, -58 deletions</title></rect>
+  <rect x="170.77" y="184.00" width="34.69" height="9.32" fill="#cf222e"><title>26 Apr 2026: +60 additions, -58 deletions</title></rect>
+  <rect x="244.15" y="172.43" width="34.69" height="11.57" fill="#2da44e"><title>10 May 2026: +72 additions, -24 deletions</title></rect>
+  <rect x="244.15" y="184.00" width="34.69" height="3.86" fill="#cf222e"><title>10 May 2026: +72 additions, -24 deletions</title></rect>
+  <rect x="280.85" y="183.04" width="34.69" height="0.96" fill="#2da44e"><title>17 May 2026: +6 additions, -78 deletions</title></rect>
+  <rect x="280.85" y="184.00" width="34.69" height="12.53" fill="#cf222e"><title>17 May 2026: +6 additions, -78 deletions</title></rect>
+  <rect x="390.92" y="174.04" width="34.69" height="9.96" fill="#2da44e"><title>07 Jun 2026: +62 additions, -3 deletions</title></rect>
+  <rect x="390.92" y="184.00" width="34.69" height="0.48" fill="#cf222e"><title>07 Jun 2026: +62 additions, -3 deletions</title></rect>
+  <rect x="427.62" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>14 Jun 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="427.62" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>14 Jun 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="464.31" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>21 Jun 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="464.31" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>21 Jun 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="501.00" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>28 Jun 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="501.00" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>28 Jun 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="537.69" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>05 Jul 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="537.69" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>05 Jul 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="574.38" y="170.50" width="34.69" height="13.50" fill="#2da44e"><title>12 Jul 2026: +84 additions, -55 deletions</title></rect>
+  <rect x="574.38" y="184.00" width="34.69" height="8.84" fill="#cf222e"><title>12 Jul 2026: +84 additions, -55 deletions</title></rect>
+  <rect x="611.08" y="175.16" width="34.69" height="8.84" fill="#2da44e"><title>19 Jul 2026: +55 additions, -84 deletions</title></rect>
+  <rect x="611.08" y="184.00" width="34.69" height="13.50" fill="#cf222e"><title>19 Jul 2026: +55 additions, -84 deletions</title></rect>
+  <rect x="647.77" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>26 Jul 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="647.77" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>26 Jul 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="684.46" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>02 Aug 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="684.46" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>02 Aug 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="721.15" y="169.22" width="34.69" height="14.78" fill="#2da44e"><title>09 Aug 2026: +92 additions, -55 deletions</title></rect>
+  <rect x="721.15" y="184.00" width="34.69" height="8.84" fill="#cf222e"><title>09 Aug 2026: +92 additions, -55 deletions</title></rect>
+  <rect x="757.85" y="175.16" width="34.69" height="8.84" fill="#2da44e"><title>16 Aug 2026: +55 additions, -92 deletions</title></rect>
+  <rect x="757.85" y="184.00" width="34.69" height="14.78" fill="#cf222e"><title>16 Aug 2026: +55 additions, -92 deletions</title></rect>
+  <rect x="794.54" y="175.65" width="34.69" height="8.35" fill="#2da44e"><title>23 Aug 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="794.54" y="184.00" width="34.69" height="8.35" fill="#cf222e"><title>23 Aug 2026: +52 additions, -52 deletions</title></rect>
+  <rect x="831.23" y="168.26" width="34.69" height="15.74" fill="#2da44e"><title>30 Aug 2026: +98 additions, -55 deletions</title></rect>
+  <rect x="831.23" y="184.00" width="34.69" height="8.84" fill="#cf222e"><title>30 Aug 2026: +98 additions, -55 deletions</title></rect>
+  <rect x="867.92" y="175.16" width="34.69" height="8.84" fill="#2da44e"><title>06 Sep 2026: +55 additions, -98 deletions</title></rect>
+  <rect x="867.92" y="184.00" width="34.69" height="15.74" fill="#cf222e"><title>06 Sep 2026: +55 additions, -98 deletions</title></rect>
+  <rect x="904.62" y="167.61" width="34.69" height="16.39" fill="#2da44e"><title>13 Sep 2026: +102 additions, -55 deletions</title></rect>
+  <rect x="904.62" y="184.00" width="34.69" height="8.84" fill="#cf222e"><title>13 Sep 2026: +102 additions, -55 deletions</title></rect>
   <rect x="820" y="34" width="12" height="12" fill="#2da44e"/><text class="label" x="838" y="44">Additions</text>
   <rect x="910" y="34" width="12" height="12" fill="#cf222e"/><text class="label" x="928" y="44">Deletions</text>
   <text class="label" x="24.00" y="304">52w</text>
-  <text class="label" x="520.08" y="304">39w</text>
-  <text class="label" x="939.84" y="304">26w</text>
-  <text class="label" x="939.84" y="304">13w</text>
-  <text class="label" x="939.84" y="304">Now</text>
+  <text class="label" x="501.00" y="304">39w</text>
+  <text class="label" x="941.31" y="304">26w</text>
+  <text class="label" x="941.31" y="304">13w</text>
+  <text class="label" x="941.31" y="304">Now</text>
   <text class="value" x="980" y="96" text-anchor="end">max +/- 610</text>
 </svg>
